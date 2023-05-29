@@ -1,3 +1,5 @@
+// Jean Paul ariza calderon
+// Challenge oracle one alura reto01
 const texto = document.getElementById('textoo');
 const imagen = document.getElementById('imagen');
 const resultado = document.getElementById('resultado');
