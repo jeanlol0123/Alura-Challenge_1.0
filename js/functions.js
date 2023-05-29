@@ -29,9 +29,11 @@ function verAcentos( texto ) {
     let resultado = acentos.test( texto )
     if ( resultado != false ) {
         error.classList.add( "error" ); 
+        window.alert('Sin acentos');
     } else {
         error.classList.remove( "error" );
     }
+    
     return  resultado;
 }
 
